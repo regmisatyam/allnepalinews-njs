@@ -14,6 +14,8 @@ const SectionTwo = () => {
                                 src="/mobile.png"
                                 alt="Phone UI"
                                 className="block w-250"
+                                width={672}
+                                height={378}
                             />
                         </div>
                     </div>
@@ -38,7 +40,7 @@ const SectionTwo = () => {
 
                         </li>
                         <li className="mb-4 bg-white rounded-2xl p-5 shadow flex">
-                        <div className=" border py-5 px-6 rounded-full border-orange-500 font-bold text-2xl text-orange-500">02</div>
+                            <div className=" border py-5 px-6 rounded-full border-orange-500 font-bold text-2xl text-orange-500">02</div>
                             <div className="ml-5">
                                 <div className="text-2xl font-bold">Easy User Interface</div>
                                 <div className="mt-2">Long contents</div>

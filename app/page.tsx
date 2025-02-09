@@ -2,10 +2,12 @@
 import Image from "next/image";
 import SectionTwo from "./components/Section2";
 import SectionThree from "./components/Section3";
+import DevelopmentModal from "./components/DevelopmentModal";
 
 export default function Home() {
   return (
     <div>
+     
       <section className="bg-custom-blue text-white py-20">
         <div className="container max-w-6xl mx-auto px-4 flex max-md:flex-wrap gap-12 items-center justify-between">
           <div className="">
@@ -33,6 +35,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <DevelopmentModal />
       <SectionTwo />
       <SectionThree />
 
