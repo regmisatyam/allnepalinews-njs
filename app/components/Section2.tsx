@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image'
 
 
 const SectionTwo = () => {
@@ -9,7 +10,7 @@ const SectionTwo = () => {
                 <div className="p-5">
                     <div className="border-2 border-gray-300 rounded-3xl p-2 mr-5">
                         <div className="bg-white rounded-2xl overflow-hidden">
-                            <img
+                            <Image
                                 src="/mobile.png"
                                 alt="Phone UI"
                                 className="block w-250"

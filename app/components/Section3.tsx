@@ -1,4 +1,4 @@
-import Link from "next/link" 
+import Image from "next/image";
 
 export default function SectionThree(){
     return(
@@ -14,7 +14,7 @@ export default function SectionThree(){
                 <div className="">
                   <div className="border-2 border-gray-300 rounded-3xl">
                     <div className="overflow-hidden rounded-2xl w-72">
-                      <img
+                      <Image
                         src="/mobile.png"
                         alt="Phone UI"
                         className="w-full"
@@ -36,7 +36,7 @@ export default function SectionThree(){
               {/* Download Buttons */}
               <div className="flex">
                 <a href="https://play.google.com/store/apps/details?id=com.satyamregmi.AllNepaliNews" className="mr-4" target="_blank">
-                  <img
+                  <Image
                     src="/get-on-play.png"
                     alt="Get it on Google Play"
                     className="h-12"
