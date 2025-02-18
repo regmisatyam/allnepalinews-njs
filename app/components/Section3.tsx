@@ -4,9 +4,9 @@ export default function SectionThree() {
     return (
         <div className="font-sans">
         <div className="bg-gradient-to-r from-blue-600 to-blue-800 dark:from-blue-800 dark:to-blue-950 py-12 text-white relative">
-          <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+          <div className="container max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
             {/* Left Section - Phone */}
-            <div className="w-full md:w-1/2 flex justify-center items-center md:absolute md:left-4 lg:left-12 md:top-[-100px]">
+            <div className="w-full md:w-1/2 flex justify-center items-center">
               <div className=" rounded-3xl p-2">
                 <div className="overflow-hidden rounded-2xl w-full">
                   <Image
