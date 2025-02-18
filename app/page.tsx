@@ -18,9 +18,9 @@ export default function Home() {
         headlines and stories from various sources, all in one convenient app.
       </p>
       <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-        <button className="bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 dark:from-yellow-600 dark:to-yellow-700 dark:hover:from-yellow-700 dark:hover:to-yellow-800 text-white font-bold py-3 px-8 rounded-full transition duration-300">
+        <a href="http://play.google.com/store/apps/details?id=com.satyamregmi.AllNepaliNews" className="bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 dark:from-yellow-600 dark:to-yellow-700 dark:hover:from-yellow-700 dark:hover:to-yellow-800 text-white font-bold py-3 px-8 rounded-full transition duration-300">
           Download App
-        </button>
+        </a>
         <button className="bg-transparent border border-white text-white font-bold py-3 px-8 rounded-full hover:bg-white hover:text-blue-600 dark:hover:text-blue-900 transition duration-300">
           Learn More
         </button>
