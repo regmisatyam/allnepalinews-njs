@@ -4,12 +4,10 @@ import Link from "next/link";
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { useTheme } from "next-themes";
 import {ModeToggle} from "./Toggle"; 
 
 const NavBar = () => {
     const [mounted, setMounted] = useState(false);
-    // const { theme } = useTheme();
 
     useEffect(() => {
         setMounted(true);
