@@ -21,9 +21,9 @@ export default function Home() {
         <a href="http://play.google.com/store/apps/details?id=com.satyamregmi.AllNepaliNews" className="bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 dark:from-yellow-600 dark:to-yellow-700 dark:hover:from-yellow-700 dark:hover:to-yellow-800 text-white font-bold py-3 px-8 rounded-full transition duration-300">
           Download App
         </a>
-        <button className="bg-transparent border border-white text-white font-bold py-3 px-8 rounded-full hover:bg-white hover:text-blue-600 dark:hover:text-blue-900 transition duration-300">
+        <a className="bg-transparent border border-white text-white font-bold py-3 px-8 rounded-full hover:bg-white hover:text-blue-600 dark:hover:text-blue-900 transition duration-300">
           Learn More
-        </button>
+        </a>
       </div>
     </div>
     <div className="md:w-1/2">
