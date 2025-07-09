@@ -56,7 +56,7 @@ export default function Contact() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            We'd Love to Hear From You
+            We&apos;d Love to Hear From You
           </motion.h3>
           <motion.p 
             className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto"
@@ -65,7 +65,7 @@ export default function Contact() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Have questions about our app or need support? Send us a message and we'll get back to you as soon as possible.
+            Have questions about our app or need support? Send us a message and we&apos;ll get back to you as soon as possible.
           </motion.p>
         </div>
 
@@ -84,7 +84,7 @@ export default function Contact() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
                 <h4 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Thank You!</h4>
-                <p className="text-gray-600 dark:text-gray-400">Your message has been sent successfully. We'll get back to you soon.</p>
+                <p className="text-gray-600 dark:text-gray-400">Your message has been sent successfully. We&apos;ll get back to you soon.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -161,7 +161,7 @@ export default function Contact() {
             <div>
               <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Contact Information</h4>
               <p className="text-gray-600 dark:text-gray-400 mb-6">
-                Feel free to reach out to us through any of these channels. We're here to help!
+                Feel free to reach out to us through any of these channels. We&apos;re here to help! Send us a message.
               </p>
               <ul className="space-y-6">
                 <li className="flex items-start">

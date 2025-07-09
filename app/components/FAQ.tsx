@@ -108,7 +108,7 @@ export default function FAQ() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: 0.1 }}
                     >
-                        Got Questions? We've Got Answers
+                        Got Questions? We&apos;ve Got Answers
                     </motion.h3>
                     <motion.p
                         className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto"
@@ -117,7 +117,7 @@ export default function FAQ() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: 0.2 }}
                     >
-                        Here are some of the most common questions we receive about All Nepali News app. If you can't find what you're looking for, feel free to contact us.
+                        Here are some of the most common questions we receive about All Nepali News app. If you can&apos;t find what you&apos;re looking for, feel free to contact us.
                     </motion.p>
                 </div>
 
@@ -143,7 +143,7 @@ export default function FAQ() {
                         transition={{ duration: 0.5 }}
                     >
                         <p className="text-gray-600 dark:text-gray-400 mb-6">
-                            Still have questions? We're here to help.
+                            Still have questions? We&apos;re here to help.
                         </p>
                         <a
                             href="#contact"

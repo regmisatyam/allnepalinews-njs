@@ -28,7 +28,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <motion.a 
-                href="#" 
+                href="https://www.facebook.com/allnepalinewsofficial" 
                 className="text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.9 }}
@@ -39,7 +39,7 @@ export default function Footer() {
                 </svg>
               </motion.a>
               <motion.a 
-                href="#" 
+                href="https://x.com/AllNepaliNews_" 
                 className="text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.9 }}
@@ -50,7 +50,7 @@ export default function Footer() {
                 </svg>
               </motion.a>
               <motion.a 
-                href="#" 
+                href="https://www.instagram.com/allnepalinews_/" 
                 className="text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.9 }}

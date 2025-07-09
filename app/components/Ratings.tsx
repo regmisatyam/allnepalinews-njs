@@ -1,5 +1,4 @@
 'use client'
-import { useState } from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
@@ -115,7 +114,7 @@ export default function Ratings() {
     {
       name: "Aɴᴜᴊᴀ Kʜᴀɴᴀʟ",
       rating: 5,
-      comment: "I recently downloaded, and I must say, it’s quickly become my go-to source for news. The user interface is clean and intuitive, making it easy to navigate through various categories of news like politics, technology, and entertainment.",
+      comment: "I recently downloaded, and I must say, it&apos;s quickly become my go-to source for news. The user interface is clean and intuitive, making it easy to navigate through various categories of news like politics, technology, and entertainment.",
       date: "November 1, 2024"
     },
     {
@@ -174,7 +173,7 @@ export default function Ratings() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Don't just take our word for it. Here's what our users think about All Nepali News.
+            Don&apos;t just take our word for it. Here&apos;s what our users think about All Nepali News.
           </motion.p>
         </div>
         

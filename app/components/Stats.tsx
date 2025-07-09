@@ -78,7 +78,7 @@ export default function Stats() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             All Nepali News continues to grow as the go-to app for Nepali news readers worldwide.
-            Here's a snapshot of our impact.
+            Here&apos;s a snapshot of our impact.
           </motion.p>
         </div>
         

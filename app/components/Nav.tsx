@@ -6,12 +6,12 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { ModeToggle } from "./Toggle";
 import { usePathname } from "next/navigation";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 const NavBar = () => {
     const [mounted, setMounted] = useState(false);
     const [scrolled, setScrolled] = useState(false);
-    const pathname = usePathname();
+    const pathname: string = usePathname();
 
     useEffect(() => {
         setMounted(true);
@@ -102,7 +102,7 @@ const NavBar = () => {
     );
 };
 
-const NavLinks = ({ pathname, isMobile = false }) => {
+const NavLinks = ({ pathname, isMobile = false }: { pathname: string, isMobile?: boolean }) => {
     const links = [
         { href: "/", label: "HOME" },
         { href: "#features", label: "FEATURES" },

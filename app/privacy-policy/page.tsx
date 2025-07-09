@@ -9,13 +9,13 @@ const Privacy = () => {
             <p className='text-sm text-gray-500'>Last updated: July 9, 2025</p>
 
             <div className='mt-4'>
-                <br />    All Nepali News (referred to as "All Nepali News" or "we" or "us") provides news and useful contents online on: website (https://www.allnepalinews.com), and also provides online services (collectively referred to as "services") that many people use daily. When you use our services, we collect certain information about you, your browser, and the devices you use to access our services. Such information helps us provide you better services by tailoring your experience and improving our services.
+                <br />    All Nepali News (referred to as &quot;All Nepali News&quot; or &quot;we&quot; or &quot;us&quot;) provides news and useful contents online on: website (https://www.allnepalinews.com), and also provides online services (collectively referred to as &quot;services&quot;) that many people use daily. When you use our services, we collect certain information about you, your browser, and the devices you use to access our services. Such information helps us provide you better services by tailoring your experience and improving our services.
                 <br />    
                 <br />    We collect both personal and non-personal information when you use our services. Please read this privacy policy carefully to learn more about the information we collect from you when you use our services. First of all, we want you to understand the differences between personal and non-personal information.
                 <br />    
                 <br />    Personal information means your personal information like name, address, phone number, and email address that can identify you. Apart from these, there are other types of personal information, such as a unique identifier associated with your device or an individual IP address assigned to your device when you connect to the internet.
                 <br />    
-                <br />    Non-personal information means information that cannot identify you. Such information includes your device’s make and model, version of your operating system, connectivity status, and usage information like which webpages you browsed and which sections of an app you frequently open.
+                <br />    Non-personal information means information that cannot identify you. Such information includes your device&apos;s make and model, version of your operating system, connectivity status, and usage information like which webpages you browsed and which sections of an app you frequently open.
                 <br />    <br />
                 <br />    <b>1. How we collect your information </b>
                 <br />    We collect information only when we need to collect certain information to provide the service you are using. The type of information and its use depends on the service you are using and how you use it. We collect the information you voluntarily provide us to use our services and the information we obtain from other sources.
@@ -42,10 +42,10 @@ const Privacy = () => {
                 <br />    When you install our desktop app or mobile app, the app may occasionally send information about your device and network status, and how you are using it. The apps may upload information stored on your device to keep the previously uploaded content up to date with your consent.
                 <br />    
                 <br />    Information about your device
-                <br />    We may collect information about your device’s wireless and mobile network connections, such as available Wi-Fi access points, network service provider, IP address, signal strength, and mobile phone number. We may also collect information from your device’s sensors, such as accelerometers and gyroscopes.
+                <br />    We may collect information about your device&apos;s wireless and mobile network connections, such as available Wi-Fi access points, network service provider, IP address, signal strength, and mobile phone number. We may also collect information from your device&apos;s sensors, such as accelerometers and gyroscopes.
                 <br />    
                 <br />    Information stored on your device
-                <br />    Some of our services may ask for additional information stored on your device to function fully. We may collect information stored on your device’s storage, such as your contacts and photos, with your permission.
+                <br />    Some of our services may ask for additional information stored on your device to function fully. We may collect information stored on your device&apos;s storage, such as your contacts and photos, with your permission.
                 <br />    
                 <br />    Information about your location
                 <br />    Our services may occasionally collect information about your approximate location. Some of our services may also use GPS, wireless networks, cell towers, and Wi-Fi access points to determine your precise location with your permission.
@@ -63,10 +63,10 @@ const Privacy = () => {
                 <br />    <br />
                 <br />    <b>2.2. To communicate with you</b>
                 <br />    We also use your personal information to communicate with you directly, notify you of any changes in our service offerings, and provide you information about products and services that we think you might interest you. We use the content you provide us during the conversation to help you solve
-                <br />    We use your non-personally identifiable device information and logs to analyze our services’ performance across different devices. We use information obtained from your device to understand how you used our services and improve the user experience. For example, we use crash reports and log data to identify and fix problems with our services and improve usability. We combine the information we collect from different services and devices to help improve our services.
+                <br />    We use your non-personally identifiable device information and logs to analyze our services&apos; performance across different devices. We use information obtained from your device to understand how you used our services and improve the user experience. For example, we use crash reports and log data to identify and fix problems with our services and improve usability. We combine the information we collect from different services and devices to help improve our services.
                 <br />    <br />
                 <br />    <b>2.3. To secure and personalize our service</b>
-                <br />    We use several technologies, algorithms, and automated systems to analyze your information, provide a personalized experience of our services, detect illegal content, and detect patterns. We also use that information to identify, prevent, and mitigate security risks, technical issues, fraud, and abuse that could impact our services’ reliability or harm our users. We may transmit your information to our servers located in and outside of your country to process them.
+                <br />    We use several technologies, algorithms, and automated systems to analyze your information, provide a personalized experience of our services, detect illegal content, and detect patterns. We also use that information to identify, prevent, and mitigate security risks, technical issues, fraud, and abuse that could impact our services&apos; reliability or harm our users. We may transmit your information to our servers located in and outside of your country to process them.
                 <br />    <br />
                 <br />    <b>3. How we share your information</b>
                 <br />    We may share your information with other users to provide them with our services. Your information from your public profile, like your name and picture, may be shared, indexed by search engines, and displayed outside our services. Apart from the publicly displayed information, we share your information in the following ways.
@@ -93,7 +93,7 @@ const Privacy = () => {
                 <br />    <br />
                 <br />    Meet any applicable legal requirement or comply with government requests, local laws, rules, or regulations.
                 <br />    Enforce our Terms of Service, or investigate a potential violation of our terms of service.
-                <br />    Identify, prevent, or address a security or technical issue that hinders our service’s regular operation.
+                <br />    Identify, prevent, or address a security or technical issue that hinders our service&apos;s regular operation.
                 <br />    Protect our rights, or that of our users or the public as required and permitted by law.
                 <br />    <br />
                 <br />    4. How we protect your information
@@ -124,16 +124,16 @@ const Privacy = () => {
                 <br />    You may deny permission to access information from your device or browser while using our services. If you have already granted any permissions, you can revoke such authorization by changing the settings available in our services, your browser, or operating system. Denying or revoking the required permissions may limit the functionality and reliability of our service.
                 <br /><br />
                 6.3. Delete your information
-                In some of our services, you may delete the content you share by visiting the Settings menu. You also have the right to ask us to delete your information. Unless there is a legal obligation to keep the information, or we need to keep your information to protect our rights, or we need your information to fix a security issue, investigate an abuse or violation report, we will delete your information. We may request you to verify your identity before deleting your information to prevent misuse of the right to delete someone else’s information. Once your request is verified, we will delete your personal information.
+                In some of our services, you may delete the content you share by visiting the Settings menu. You also have the right to ask us to delete your information. Unless there is a legal obligation to keep the information, or we need to keep your information to protect our rights, or we need your information to fix a security issue, investigate an abuse or violation report, we will delete your information. We may request you to verify your identity before deleting your information to prevent misuse of the right to delete someone else&apos;s information. Once your request is verified, we will delete your personal information.
                 <br /><br />
                 6.4. Change advertising preferences
-                We may show you ads that we think are relevant to you. If you don’t want to see personalized ads based on your information, you can change your preferences. You can learn to set your advertisement by reading this article.
+                We may show you ads that we think are relevant to you. If you don&apos;t want to see personalized ads based on your information, you can change your preferences. You can learn to set your advertisement by reading this article.
                 <br /><br />
                 6.5. Change your sharing settings.
                 Your full name and your profile picture are always public. We have a number of setting options that let you control how you want to share your information using our services.
                 <br /><br />
                 7. About third-party services
-                This Privacy Policy describes how we handle personal information when you use our services. Some of our services make use of third-party services, and your information is subject to the service providers’ privacy policies. Some of our services may contain links to websites or apps and integrate services provided by a third-party that is not in our control. In that case, the service’s privacy policy will include details of the information collected by, or shared with the third-party service provider.
+                This Privacy Policy describes how we handle personal information when you use our services. Some of our services make use of third-party services, and your information is subject to the service providers&apos; privacy policies. Some of our services may contain links to websites or apps and integrate services provided by a third-party that is not in our control. In that case, the service&apos;s privacy policy will include details of the information collected by, or shared with the third-party service provider.
                 <br /><br />
                 7.1. Links to third-party services
                 If you click on a third-party link on our service, your browser or app may redirect you to the external app, website, or service. We do not operate these external sites, and our privacy policy does not apply to such services. Therefore, we strongly advise you to review the privacy policy of the external services you visit. We have no control over and assume no responsibility for the content, privacy policy, or practices of any third-party sites or services.
@@ -151,7 +151,7 @@ const Privacy = () => {
                 Advertising Partners: <br />
                 <b>Admob</b>
                 <br /><br />
-                8. Children's privacy
+                8. Children&apos;s privacy
                 Our services do not knowingly collect personally identifiable information from children under 13. In some jurisdictions like the European Union, users under the age of 16 are considered children, unless the data protection regulation of their country of residence specifies another age. We consider users under the minimal legal age required in their country of residence as children. We do not allow children to submit their personal information like their name, picture, or address to our services.
                 <br /><br />
                 In the case we discover that a child has provided us with personally identifiable information, we immediately delete this from our servers. If you are a parent or guardian and are aware that you or your child has provided us with their personally identifiable information that you want us to remove, please contact us. We will take the necessary action to remove that information from our services.
@@ -161,17 +161,17 @@ const Privacy = () => {
                 <br /><br />
                 You may request your information up to three times per year for free. Depending on the workload, it may take us up to 30 business days to respond to your request. You may also send your request to our email address mentioned at the end of this document. We will not discriminate against you, or change our service offering for you based on whether you want to exercise your legal rights. Our support team will be happy to answer your questions, and help you as soon as possible.
                 <br /><br />
-                We don't collect unnecessary information, and only use the information according to this privacy policy. Here are the details of the personal information that we have collected in the last 12 months.
+                We don&apos;t collect unnecessary information, and only use the information according to this privacy policy. Here are the details of the personal information that we have collected in the last 12 months.
                 <br /><br />
-                Personal identifiers like your name, age, gender, photo, email, phone number, and IP address. We collect this information to verify your age and determine if you are eligible to use our services. If you created an account with us, we use this information to provide you our services. We also use this information to indicate to our advertising partners to only show age-appropriate ads to you. Electronic, visual, or similar information such as a photograph that you uploaded to our services for editing, or a chat message you sent to your friends. Such information is deleted when it is no longer required to provide you with the service. Information from the categories listed in the California Customer Records such as your name, address, and phone number. Commercial information such as products that you purchased through our vendors – Google Play and App Store. We do not directly process payments for purchases made in third-party stores, so we did not collect payment information like your credit card number. Internet or other electronic network activity information like access logs on our servers, information about your interaction with our service, and ads displayed within our services. Geolocation data based on the location of the device that you are using to access our service. We use this information to decide whether or not to display personalized advertisements to our users, based on their location.
+                Personal identifiers like your name, age, gender, photo, email, phone number, and IP address. We collect this information to verify your age and determine if you are eligible to use our services. If you created an account with us, we use this information to provide you our services. We also use this information to indicate to our advertising partners to only show age-appropriate ads to you. Electronic, visual, or similar information such as a photograph that you uploaded to our services for editing, or a chat message you sent to your friends. Such information is deleted when it is no longer required to provide you with the service. Information from the categories listed in the California Customer Records such as your name, address, and phone number. Commercial information such as products that you purchased through our vendors &mdash; Google Play and App Store. We do not directly process payments for purchases made in third-party stores, so we did not collect payment information like your credit card number. Internet or other electronic network activity information like access logs on our servers, information about your interaction with our service, and ads displayed within our services. Geolocation data based on the location of the device that you are using to access our service. We use this information to decide whether or not to display personalized advertisements to our users, based on their location.
                 <br /><br />
                 10. Residents of Mexico
-                The residents of Mexico may exercise their rights of access, rectification, and cancellation according to the "Your control over your information" section above. Some of our services allow you to simply delete the information that you have provided. If you are using a service that does not have an option to delete the information you shared, you can request us to delete that information.
+                The residents of Mexico may exercise their rights of access, rectification, and cancellation according to the &quot;Your control over your information&quot; section above. Some of our services allow you to simply delete the information that you have provided. If you are using a service that does not have an option to delete the information you shared, you can request us to delete that information.
                 <br /><br />
                 Please note that All Nepali News, located in Kathmandu, Nepal is the controller of your personal information. You have the right to object to or challenge our use of your information. To contact the controller of your personal information, please visit our contact page and fill up the information request form.
                 <br /><br />
                 11. Residents of Brazil
-                The residents of Brazil, apart from their rights described in the "Your control over your information" section above, have additional rights. Please note that All Nepali News, located in Kathmandu, Nepal is the controller of your personal information. If you have any complaints you can file a complaint with the national authority in Brazil. To contact the controller of your personal information, please visit our contact page and fill up the information request form.
+                The residents of Brazil, apart from their rights described in the &quot;Your control over your information&quot; section above, have additional rights. Please note that All Nepali News, located in Kathmandu, Nepal is the controller of your personal information. If you have any complaints you can file a complaint with the national authority in Brazil. To contact the controller of your personal information, please visit our contact page and fill up the information request form.
                 <br /><br />
                 Lei Geral de Proteção de Dados (LGPD) requires us to only collect and use your information if certain conditions meet. Here are the conditions in which we collect and use your information.
                 <br /><br />
@@ -191,9 +191,9 @@ const Privacy = () => {
                 We may use your information to exercise our legal rights to protect our services and users.
                 <br /><br />
                 12. Residents of the European Union
-                The residents of the European Union (EU) can exercise their rights of access, deletion, correction, and portability as described in the "Your control over your information" section above. Please note that All Nepali News is the controller of your personal information.
+                The residents of the European Union (EU) can exercise their rights of access, deletion, correction, and portability as described in the &quot;Your control over your information&quot; section above. Please note that All Nepali News is the controller of your personal information.
                 <br /><br />
-                Your country requires us to only collect and use your information if we have a "legal basis" to do so. Here are the conditions in which we collect and use your information.
+                Your country requires us to only collect and use your information if we have a &quot;legal basis&quot; to do so. Here are the conditions in which we collect and use your information.
                 <br /><br />
                 12.1. Performance of Contract with you
                 By using our services you enter into an agreement with us that governs your use of our services. For example, when you create an account with us and accept our Terms of Service, we need to collect your personal information to maintain your account and authenticate you in the future according to the agreement.
