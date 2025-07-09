@@ -2,6 +2,8 @@
 import Image from "next/image";
 import SectionTwo from "./components/Section2";
 import SectionThree from "./components/Section3";
+import Stats from "./components/Stats";
+import Ratings from "./components/Ratings";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
 import DevelopmentModal from "./components/DevelopmentModal";
@@ -80,6 +82,8 @@ export default function Home() {
       <DevelopmentModal />
       <SectionTwo />
       <SectionThree />
+      <Stats />
+      <Ratings />
       <FAQ />
       <Contact />
     </div>
