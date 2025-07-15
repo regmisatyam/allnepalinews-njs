@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "864641621350",
+    "firebase_url": "https://all-nepali-news-1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "all-nepali-news-1",
+    "storage_bucket": "all-nepali-news-1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864641621350:android:53e55a2a1926ca31b3fca7",
+        "android_client_info": {
+          "package_name": "com.satyamregmi.AllNepaliNews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864641621350-d4htu9btkfd0qj98lcmb34ia7siu9tdu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.satyamregmi.AllNepaliNews",
+            "certificate_hash": "365c522d59320be3c9ce8a8c0b1b3ddbf80fd4b1"
+          }
+        },
+        {
+          "client_id": "864641621350-qablkk7eu83ej1gt2fl6jqmge6sv7v30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJB9nwMNd1pcSe_Vz8Gt372h62AFH6GGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864641621350-qablkk7eu83ej1gt2fl6jqmge6sv7v30.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "864641621350-o103439clv43agmpds6bum787phhdodg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.satyamregmi.allnepalinews"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4972856716609696~7934532310"
+    }
+  ],
+  "configuration_version": "1"
+}
