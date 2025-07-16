@@ -69,9 +69,18 @@ export default function Profile() {
               <div>
                 <p className="text-sm font-medium text-gray-500 dark:text-gray-400">Email</p>
                 <p className="mt-1 text-sm text-gray-900 dark:text-white">{user.email}</p>
-              </div> <div>
+              </div> 
+              <div>
                 <p className="text-sm font-medium text-gray-500 dark:text-gray-400">API Key</p>
-                <p className="mt-1 text-sm text-gray-900 dark:text-white">{user.uid}</p>
+                {/* Make the API key a button that copies to clipboard */}
+                <button className="mt-1 text-sm text-gray-900 dark:text-white flex items-center" onClick={() => {
+                  navigator.clipboard.writeText(user.uid);
+                  alert('API Key copied to clipboard');
+                }}>
+                  {user.uid} &nbsp; <div className="text-gray-500 dark:text-gray-400 w-3 h-3" title="Copy to clipboard"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path d="M384 112v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h80c0-35.3 28.7-64 64-64s64 28.7 64 64h80c26.5 0 48 21.5 48 48zM192 40c-13.3 0-24 10.7-24 24s10.7 24 24 24 24-10.7 24-24-10.7-24-24-24m96 114v-20a6 6 0 0 0 -6-6H102a6 6 0 0 0 -6 6v20a6 6 0 0 0 6 6h180a6 6 0 0 0 6-6z"/></svg></div>
+                </button> 
+                
               </div>
               <div>
                 <p className="text-sm font-medium text-gray-500 dark:text-gray-400">Account Created</p>

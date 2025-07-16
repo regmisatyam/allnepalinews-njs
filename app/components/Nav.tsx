@@ -113,10 +113,10 @@ const NavBar = () => {
 const NavLinks = ({ pathname, isMobile = false }: { pathname: string, isMobile?: boolean }) => {
     const links = [
         { href: "/", label: "HOME" },
-        { href: "#features", label: "FEATURES" },
+        { href: "/#features", label: "FEATURES" },
         { href: "/blog", label: "BLOG" },
-        { href: "#faq", label: "FAQs" },
-        { href: "#contact", label: "CONTACT" },
+        { href: "/#faq", label: "FAQs" },
+        { href: "/#contact", label: "CONTACT" },
         { href: "/profile", label: "PROFILE" }
     ];
 
