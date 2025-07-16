@@ -7,7 +7,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { ModeToggle } from "./Toggle";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import LoginButton from './LoginButton';
+import ProfileDropdown from './ProfileDropdown';
 
 const NavBar = () => {
     const [mounted, setMounted] = useState(false);
@@ -67,7 +67,7 @@ const NavBar = () => {
                 <NavLinks pathname={pathname} />
                 <div className="h-6 w-px bg-gray-300 dark:bg-gray-700"></div>
                 <ModeToggle />
-                <LoginButton />
+                <ProfileDropdown />
                 <ActionButtons />
             </div>
 
@@ -100,7 +100,7 @@ const NavBar = () => {
                             <ModeToggle />
                         </div>
                         <div className="flex flex-col space-y-4">
-                            <LoginButton />
+                            <ProfileDropdown />
                             <ActionButtons isMobile={true} />
                         </div>
                     </nav>
@@ -117,7 +117,6 @@ const NavLinks = ({ pathname, isMobile = false }: { pathname: string, isMobile?:
         { href: "/blog", label: "BLOG" },
         { href: "/#faq", label: "FAQs" },
         { href: "/#contact", label: "CONTACT" },
-        { href: "/profile", label: "PROFILE" }
     ];
 
     return (
