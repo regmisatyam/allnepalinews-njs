@@ -13,7 +13,7 @@ const NavBar = () => {
     const [mounted, setMounted] = useState(false);
     const [scrolled, setScrolled] = useState(false);
     const pathname: string = usePathname();
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+   
 
     useEffect(() => {
         setMounted(true);
