@@ -6,7 +6,6 @@ import Stats from "./components/Stats";
 import Ratings from "./components/Ratings";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
-import DevelopmentModal from "./components/DevelopmentModal";
 import { motion } from "framer-motion";
 
 export default function Home() {

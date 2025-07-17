@@ -14,7 +14,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-import { User, LogOut, Settings, Key } from 'lucide-react';
+import { User, LogOut, Key } from 'lucide-react';
 
 export default function ProfileDropdown() {
   const { user, loading } = useAuth();
