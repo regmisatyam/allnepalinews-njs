@@ -157,6 +157,9 @@ export default function Footer() {
           <p className="text-sm text-center text-gray-500 dark:text-gray-400">
             &copy; {currentYear} All Nepali News. All rights reserved.
           </p>
+          <p className="text-sm text-center text-gray-500 dark:text-gray-400">
+            Website still under development ⚠️.
+          </p>
         </div>
       </div>
     </footer>
