@@ -79,7 +79,7 @@ export default function Home() {
         </div>
       </section>
 
-      <DevelopmentModal />
+      {/* <DevelopmentModal /> */}
       <SectionTwo />
       <SectionThree />
       <Stats />
