@@ -19,6 +19,18 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "All Nepali News",
   description: "Short | Fast | Reliable",
+  openGraph: {
+    images: "/ANN.png",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "All Nepali News",
+    description: "Short | Fast | Reliable",
+    images: "/ANN.png",
+  },
+  icons: {
+    icon: "/ANN.png",
+  },
 };
 
 export default function RootLayout({
