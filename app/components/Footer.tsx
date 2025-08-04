@@ -67,8 +67,8 @@ export default function Footer() {
             <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900 dark:text-white">App</h3>
             <ul className="mt-4 space-y-3">
               <li>
-                <Link href="#features" className="text-sm text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
-                  Features
+                <Link href="/status" className="text-sm text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
+                  Status
                 </Link>
               </li>
               <li>
@@ -103,7 +103,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
+                <Link href="/#contact" className="text-sm text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
                   Support
                 </Link>
               </li>
