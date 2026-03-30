@@ -78,7 +78,7 @@ export default function StatusPage() {
         Here you can find the current status of all major All Nepali News services and APIs. If you are experiencing issues not listed here, please contact support.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {services.map((service, idx) => {
+        {services.map((service) => {
           const StatusIcon =
             service.status === "Online"
               ? CheckCircle
