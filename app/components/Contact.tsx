@@ -10,25 +10,39 @@ export default function Contact() {
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [error, setError] = useState('')
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
     setFormData(prev => ({ ...prev, [name]: value }))
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
-    
-    // Simulate form submission
-    setTimeout(() => {
+    setError('')
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      })
+
+      const data = await res.json()
+
+      if (!res.ok) {
+        setError(data.error || 'Something went wrong. Please try again.')
+      } else {
+        setIsSubmitted(true)
+        setFormData({ name: '', email: '', message: '' })
+        setTimeout(() => setIsSubmitted(false), 5000)
+      }
+    } catch {
+      setError('Network error. Please check your connection and try again.')
+    } finally {
       setIsSubmitting(false)
-      setIsSubmitted(true)
-      setFormData({ name: '', email: '', message: '' })
-      
-      // Reset success message after 5 seconds
-      setTimeout(() => setIsSubmitted(false), 5000)
-    }, 1500)
+    }
   }
 
   return (
@@ -133,6 +147,14 @@ export default function Contact() {
                     placeholder="How can we help you?"
                   ></textarea>
                 </div>
+                {error && (
+                  <div className="flex items-start gap-2 rounded-lg bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 p-3 text-sm text-red-700 dark:text-red-400">
+                    <svg className="w-4 h-4 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    {error}
+                  </div>
+                )}
                 <div>
                   <button
                     type="submit"
