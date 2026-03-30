@@ -47,7 +47,7 @@ const SectionTwo = () => {
                             <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-500 rounded-[2.5rem] blur-2xl opacity-20 dark:opacity-40"></div>
                             <div className="relative bg-white dark:bg-gray-800 rounded-[2.5rem] p-6 shadow-2xl">
                                 <Image
-                                    src="/mobile.png"
+                                    src="/scr-shot-media.png"
                                     alt="Phone UI"
                                     className="w-full max-w-[22rem] mx-auto"
                                     width={672}
