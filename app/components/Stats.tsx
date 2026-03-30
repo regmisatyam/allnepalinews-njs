@@ -100,7 +100,7 @@ export default function Stats() {
               </div>
             </div>
             <div className="mb-2">
-              <Counter end={5000} prefix="+" />
+              <Counter end={10000} prefix="+" />
             </div>
             <h4 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Downloads</h4>
             <p className="text-gray-600 dark:text-gray-400">Total app downloads across all platforms</p>
@@ -146,7 +146,7 @@ export default function Stats() {
               </div>
             </div>
             <div className="mb-2">
-              <Counter end={100} suffix="K+" />
+              <Counter end={400} suffix="K+" />
             </div>
             <h4 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">News Articles Read</h4>
             <p className="text-gray-600 dark:text-gray-400">Total articles read by our users</p>
